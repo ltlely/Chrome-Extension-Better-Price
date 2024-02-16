@@ -5,7 +5,9 @@
     "version": "0.1",
     "description": "This extension overrides the default new tab into a unit converter",
     "chrome_url_overrides": {
-      "newtab": "newtab.html"
+      "newtab": "newtab.html",
+      "newtab4": "newtab4.html",
+      "newtab2": "newtab2.html"
     }
   }
   
