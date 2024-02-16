@@ -5,8 +5,8 @@
     "version": "0.1",
     "description": "This extension overrides the default new tab into a customized pastel themed.",
     "chrome_url_overrides": {
-      "newtab": "newtab.html"
-    },
-    "host_permissions": ["https://api.quotable.io/random"]
+      "newtab": "newtab.html",
+      "newtab2": "newtab2.html"
+    }
   }
   
