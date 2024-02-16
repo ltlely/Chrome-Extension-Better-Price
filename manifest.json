@@ -1,12 +1,11 @@
 {
     "manifest_version": 3,
     "author": "LyLy Tran",
-    "name": "CS395 - Pastel",
+    "name": "Unit Converter",
     "version": "0.1",
-    "description": "This extension overrides the default new tab into a customized pastel themed.",
+    "description": "This extension overrides the default new tab into a unit converter",
     "chrome_url_overrides": {
       "newtab": "newtab.html"
-    },
-    "host_permissions": ["https://api.quotable.io/random"]
+    }
   }
   
