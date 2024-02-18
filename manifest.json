@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Unit Converter",
+  "version": "0.1",
+  "description": "This extension provides a unit converter as a popup",
+  "author": "LyLy Tran",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "newtab.html"
+  },
+  "icons": {
+    "16": "convertlogo.png",
+    "48": "convertlogo.png",
+    "128": "convertlogo.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self';"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["mainCode.js", "loadContent.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
